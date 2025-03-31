@@ -26,7 +26,7 @@
     font-size: var(--text-sm-1);
 }
 .fs-64{
-    font-size: 64px;
+    font-size: var(--text-3xl);
 }
 .fc-light-white{
     color: var(--light-white);
@@ -35,8 +35,21 @@
     color: var(--white-color);
 }
 
-@media(max-width:768px){
+@media(max-width:992px){
     :root{
-        --text-3xl:44px;
+        --text-3xl:54px;
+        --text-sm: 12px;
+            --text-sm-1: 14x;
+            --text-md: 18px;
+            --text-2xl: 38px;
+    }
+}
+@media(max-width:768px) {
+    :root {
+        --text-3xl: 44px;
+        /* --text-sm: 10px;
+        --text-sm-1: 12x;
+        --text-md: 16px;
+        --text-2xl: 28px; */
     }
 }

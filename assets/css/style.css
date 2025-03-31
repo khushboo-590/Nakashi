@@ -262,10 +262,12 @@
 .mt-180 {
     margin-top: 180px;
 }
-.flex-column{
+
+.flex-column {
     flex-direction: column;
 }
-.h-400{
+
+.h-400 {
     height: 400px;
 }
 
@@ -287,6 +289,8 @@
         justify-content: center;
         align-items: center;
         background: #FFFFFF;
+        height: 500px;
+        ;
 
         .fc-white {
             color: var(--black-color);
@@ -299,7 +303,7 @@
     }
 
     .pt-150 {
-        padding: 50px;
+        padding-top: 50px;
 
     }
 
@@ -308,25 +312,39 @@
     }
 
     .cartoon {
-       top: 150px;
-       width: 300px;
+        top: 150px;
+        width: 300px;
     }
-    .cartoon-1{
-        top: 0;
-            width: 270px;
+
+    .cartoon-1 {
+        top: 80px;
+        width: 270px;
+        right: 90px;
     }
-    
-  
+
+    .section-2 {
+        height: 700px;
+    }
+
+
 
     .logo-name {
         width: 400px;
     }
-    .max-w-445{
+
+    .max-w-445 {
         max-width: 300px;
     }
-    .max-w-408{
+
+    .max-w-408 {
         max-width: none;
     }
+
+    .center {
+
+        text-align: center;
+    }
+
 }
 
 @media(max-width:992px) {
@@ -339,44 +357,88 @@
     .pt-150 {
         padding-top: 10px;
     }
-    .top-150{
-        top: 320px!important;
+
+    .top-150 {
+        top: 320px !important;
     }
-  .top-55{
-    top: 270px !important;
-  }
-          
-  .mt-173 {
-      margin-top: 370px;
-  }
+
+    .top-55 {
+        top: 270px !important;
+    }
+
+    .mt-173 {
+        margin-top: 370px;
+    }
 
     .logo-name {
         width: 300px;
     }
-          .max-w-445 {
-              max-width: 200px;
-          }
+
+    .max-w-445 {
+        max-width: 200px;
+    }
+
+    .shadow {
+        left: 0;
+        width: 300px;
+    }
+
+    .pt-60 {
+        padding: 30px;
+    }
+
 
 }
 
 @media(max-width:768px) {
- 
+
 
     .sign {
         left: 0;
         top: 10%;
     }
-                 .max-w-445 {
-                     max-width: 100px;
-                 }
-                                  .cartoon {
-                                      width: 270px;
-                                  }
-                
-                                  .cartoon-1 {
-                                      width: 230px;
-                                  }
 
-   
+    .max-w-445 {
+        max-width: 100px;
+    }
 
+    .cartoon {
+        width: 270px;
+
+    }
+
+    .cartoon-1 {
+        width: 230px;
+    }
+
+    .pt-60 {
+        padding: 20px;
+    }
+}
+
+@media(max-width:576px) {
+    .cartoon {
+        left: 0;
+    }
+
+    .cartoon-1 {
+
+        right: 10px;
+    }
+
+    .top-150 {
+        top: 350px !important;
+    }
+
+    .top-55 {
+        top: 290px !important;
+    }
+
+    .pt-60 {
+        padding: 15px;
+    }
+
+    .h-400 {
+        height: 250px;
+    }
 }
